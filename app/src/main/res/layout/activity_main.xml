@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vardas pavarde:"/>
+
+        <EditText
+            android:id="@+id/etVardas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Iveskite savo varda"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gimimo data:"/>
+
+        <EditText
+            android:id="@+id/etGimimoData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Iveskite savo gimimo data"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono numeris:"/>
+
+        <EditText
+            android:id="@+id/etTelNr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Iveskite savo tel numeri"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="Kliento tipas:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegistruoti"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Registruoti" />
+
+        <Button
+            android:id="@+id/btnVisiIrasai"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Visi irasai" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
